@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0049da77-6c47-47a4-aa9b-a0199896bf59" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/1/DOM对象和jQuery对象/DOM对象和jQuery对象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1/DOM对象和jQuery对象/注册.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/链式操作/链式操作.css" beforeDir="false" afterPath="$PROJECT_DIR$/1/链式操作/链式操作.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/链式操作/链式操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/1/链式操作/链式操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/DOM对象和jQuery对象/DOM对象和jQuery对象.md" beforeDir="false" afterPath="$PROJECT_DIR$/1/DOM对象和jQuery对象/DOM对象和jQuery对象.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DOM对象和jQuery对象.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DOM对象和jQuery对象.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/DOM对象和jQuery对象/DOM对象和jQuery对象.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+            <state relative-caret-position="334">
+              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="注册.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1/DOM对象和jQuery对象/注册.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -42,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,6 +66,7 @@
         <option value="$PROJECT_DIR$/1/链式操作/链式操作.css" />
         <option value="$PROJECT_DIR$/1/链式操作/链式操作.html" />
         <option value="$PROJECT_DIR$/1/DOM对象和jQuery对象/DOM对象和jQuery对象.md" />
+        <option value="$PROJECT_DIR$/1/DOM对象和jQuery对象/注册.html" />
       </list>
     </option>
   </component>
@@ -149,12 +158,12 @@
       <workItem from="1523157684453" duration="6580000" />
       <workItem from="1523189181484" duration="13000" />
       <workItem from="1523189222393" duration="1481000" />
-      <workItem from="1523193386560" duration="1126000" />
+      <workItem from="1523193386560" duration="3094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9200000" />
+    <option name="totallyTimeSpent" value="11168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -167,7 +176,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,8 +281,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/DOM对象和jQuery对象/DOM对象和jQuery对象.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+        <state relative-caret-position="334">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/DOM对象和jQuery对象/注册.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>

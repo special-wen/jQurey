@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户基本注册</title>
+    <script src = "../../jquery-3.3.1.js"></script>
+</head>
+<body>
+<input type="checkbox" id = "cr"/><label for="cr">我已经阅读了上面制度</label>
+</body>
+<script>
+    $(document).ready(function () {
+        var $cr = $("#cr");
+        var cr = $cr.get(0);
+        $cr.click(function () {
+            //javaScript判断
+            // if (cr.checked){
+            //     alert("谢谢您的支持！您可以继续操作！");
+            // }
+            //jQuery判断
+            //is(":checked")是jQuery中的方法，用于判断jQuery是否被选中，返回boolean值git
+            if ($cr.is(":checked")){
+                alert("感谢您的支持！")
+            }
+        })
+    })
+</script>
+</html>
