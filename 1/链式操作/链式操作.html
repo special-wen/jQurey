@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>链式操作</title>
+    <link rel="stylesheet" href="./链式操作.css">
+    <script src = "../../jquery-3.3.1.js"></script>
+</head>
+<body>
+<div class="box">
+    <ul class="menu">
+        <li class="level1">
+            <a href="">衬衫</a>
+            <ul class="level2">
+                <li><a href="#none">短袖衬衫</a></li>
+                <li><a href="">长袖衬衫</a></li>
+                <li><a href="">短袖T恤</a></li>
+                <li><a href="">长袖T恤</a></li>
+            </ul>
+        </li>
+        <li class="level1">
+            <a href="">卫衣</a>
+            <ul class="level2">
+                <li><a href="">开襟卫衣</a></li>
+                <li><a href="">套头卫衣</a></li>
+                <li><a href="">运动卫衣</a></li>
+                <li><a href="">童装卫衣</a></li>
+            </ul>
+        </li>
+        <li class="level1">
+            <a href="">裤子</a>
+            <ul class="level2">
+                <li><a href="">短裤</a></li>
+                <li><a href="">休闲裤</a></li>
+                <li><a href="">牛仔裤</a></li>
+                <li><a href="">免烫卡其裤</a></li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+</body>
+<script>
+    $(".level1 > a").click(function () {
+        $(this).addClass("current").next().show().parent().siblings().children("a").removeClass("current").next().hide();
+        return false;
+    });
+</script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src = "../jquery-3.3.1.js"></script>
+</head>
+<body>
+</body>
+<script>
+    $(document).ready(function () {   //等待dom元素加载完毕
+        alert("hello world!");        //弹出框
+    });
+
+    $(function () {
+        alert("简化上面的代码");
+    })
+    //类似于window.onload。但也有一些区别。
+    //window.onload不能同时编写多个，如果有多个，只会输出最后一个。
+    //window.onload必须等网页中所有的内容加载完毕（包括图片）才会执行
+    //$document.ready()在网页中所有的DOM结构绘制完毕后执行。可能dom元素中关联的东西还没有加载完
+
+//    $(document).ready(function () {
+//
+//    })
+//    $(function () {
+//
+//    })
+
+</script>
+</html>
