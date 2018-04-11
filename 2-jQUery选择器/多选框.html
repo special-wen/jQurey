@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多选框操作</title>
+</head>
+<body>
+<input type="checkbox" value = "1" name = "check" checked="checked" />
+<input type="checkbox" value = "2" name = "check" />
+<input type="checkbox" value = "3" name = "check" />
+<input type="checkbox" value = "4" name = "check" />
+<input type="button" value="你选中的个数" id = "btn" />
+</body>
+<script>
+    var btn = document.getElementById("btn");
+    btn.onclick = function () {
+        var arrays = new Array();
+        var items = document.getElementsByTagName("check");
+        alert(items.length);
+//        var i;
+        for (i = 0;i<items.length;i++){
+            alert("a");
+            if (items[i].checked){
+                arrays.push(items[i].value);
+            }
+        }
+//        alert("选中的个数为："+arrays.length);
+    }
+</script>
+</html>
