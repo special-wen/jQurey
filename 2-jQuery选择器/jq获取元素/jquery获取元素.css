@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div ,span,p{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+    background: #aaa;
+    border: #000 1px solid;
+}

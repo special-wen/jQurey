@@ -12,19 +12,15 @@
 <input type="button" value="你选中的个数" id = "btn" />
 </body>
 <script>
-    var btn = document.getElementById("btn");
     btn.onclick = function () {
         var arrays = new Array();
-        var items = document.getElementsByTagName("check");
-        alert(items.length);
-//        var i;
+        var items = document.getElementsByName("check");
         for (i = 0;i<items.length;i++){
-            alert("a");
             if (items[i].checked){
                 arrays.push(items[i].value);
             }
         }
-//        alert("选中的个数为："+arrays.length);
+        alert("选中的个数为："+arrays.length);
     }
 </script>
 </html>
